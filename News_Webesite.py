@@ -56,7 +56,7 @@ def main():
 
 
                
-               url=f"https://newsapi.org/v2/top-headlines?country=us&category={tac}&apiKey=5f4b6487c3c7456b85263b1f8579bb93"
+               url=f""
                r = requests.get(url)
                r = r.json()
                articles = r['articles']
